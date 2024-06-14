@@ -1,0 +1,32 @@
+@keyframes slideFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .slide-enter {
+    animation: slideFromTop 0.1s ease-out forwards;
+  }
+
+
+  @keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .slide-left {
+    animation: slideFromLeft 0.1s ease-out forwards;
+  }
+
+
+
+/* // Gpt loader */
+
+
