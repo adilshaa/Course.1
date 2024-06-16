@@ -9,7 +9,7 @@ function ManagerLayout() {
         <Header></Header>
       </div>
 
-      <div className="pt-20 w-full px-2 md:px-10 ">
+      <div className="pt-16 w-full px-2 md:px-10 ">
         <Outlet />
       </div>
     </div>

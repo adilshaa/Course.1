@@ -11,6 +11,7 @@
 
         "showBoxCnt":
           "const arrow = async () => console.log('Its arrow') \n Out put : Its arrow \n //hello"
+          , "complexity":"hard"
       },
       {
         "header": "JavaScript Modules",
@@ -20,6 +21,30 @@
         "hints":
           "Consider how modules improve code maintainability and encourage encapsulation",
         "showBoxCnt": "import data From './App.css'"
+        , "complexity":"medium"
+
+      },
+      {
+        "header": "JavaScript Modules",
+        "question":
+          "Explore the concept of modules in JavaScript and how they help organize code ?",
+        "hintTitle": "Reffer This ",
+        "hints":
+          "Consider how modules improve code maintainability and encourage encapsulation",
+        "showBoxCnt": "const [time, setTime] = useState(300); // 300 seconds = 5 minutes"
+        , "complexity":"easy"
+
+      },
+      {
+        "header": "JavaScript Modules",
+        "question":
+          "Explore the concept of modules in JavaScript and how they help organize code ?",
+        "hintTitle": "Reffer This ",
+        "hints":
+          "Consider how modules improve code maintainability and encourage encapsulation",
+        "showBoxCnt": ""
+        , "complexity":"medium"
+
       }
     ]
   },
@@ -34,6 +59,8 @@
         "hints":
           "Consider how modules improve code maintainability and encourage encapsulation",
         "showBoxCnt": "import data From './App.css'"
+        , "complexity":"easy"
+
       }
     ]
   }

@@ -1,5 +1,6 @@
 import React from "react";
 import Search from "../components/search";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const array = [1, 2, 3, 4];
@@ -34,10 +35,12 @@ const Home = () => {
               </div>
               <div className="flex flex-row items-end justify-end  mt-2">
                 <div className="w-1/4 flex justify-end p-2">
-                  <button className="w-24 h-10 rounded-3xl font-semibold text-white bg-indigo-800">
-                    {" "}
-                    Start
-                  </button>
+                  <Link to="/attent">
+                    <button className="w-24 h-10 rounded-3xl font-semibold text-white bg-indigo-800">
+                      {" "}
+                      Start
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

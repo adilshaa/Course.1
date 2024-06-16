@@ -13,7 +13,6 @@ function ColorizedText({ text }) {
 
   // Split the text into an array of words
   const words = text.toLowerCase().split(/\b/);
-  console.log(words);
   return (
     <pre className="" style={{ display: "inline", whiteSpace: "pre-wrap" }}>
       {words.map((word, index) => {
